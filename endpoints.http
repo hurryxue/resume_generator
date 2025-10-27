@@ -1,0 +1,18 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PyCharm
+
+### refresh all email tokens
+http://localhost:8000/api/accounts/refresh_all_tokens/
+
+### get batch tokens
+
+POST http://localhost:8000/api/batch-access-tokens/
+
+
+
+{"emails": ["MichelleChen8421@outlook.com"]}
+
+Get http://localhost:8000/api/accounts/
+
+Post http://localhost:8000/api/accounts/

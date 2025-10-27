@@ -1,0 +1,82 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+\geometry{left=1.4cm, top=.9cm, right=1.4cm, bottom=1.6cm, footskip=.4cm}
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-skyblue}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+% PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\name{}{ }
+\position{}
+\address{}
+
+\mobile{}
+\email{}
+\linkedin{}
+\github{}
+\quote{}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makecvheader[C]
+\makecvfooter
+  {\today}
+  {~~~·~~~Résumé}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+% EDUCATION
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+
+\cventry
+  {} % Degree
+  {} % University
+  {} % Location
+  {} % Dates
+  {
+    \begin{cvitems}
+      \item % Optional coursework or achievements
+    \end{cvitems}
+  }
+
+%-------------------------------------------------------------------------------
+% SKILLS
+%-------------------------------------------------------------------------------
+\cvsection{Technical Skills}
+\begin{cvskills}
+  \cvskill{Languages}{}
+  \cvskill{Frameworks}{}
+  \cvskill{Tools \& Databases}{}
+\end{cvskills}
+
+%-------------------------------------------------------------------------------
+% EXPERIENCE
+%-------------------------------------------------------------------------------
+\cvsection{Experience}
+
+\cventry
+  {} % Position
+  {} % Company
+  {} % Location
+  {} % Dates
+  {
+    \begin{cvitems}
+      \item % Responsibility / Achievement
+    \end{cvitems}
+  }
+
+% Add more experience entries as needed
+%\cventry{}{}{}{}{\begin{cvitems}\item{}\end{cvitems}}
+
+%-------------------------------------------------------------------------------
+\end{document}
