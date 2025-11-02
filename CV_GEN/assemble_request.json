@@ -1,0 +1,105 @@
+{
+  "name": "example name",
+  "phone": 1234455544,
+  "email": "example@outlook.com",
+  "address":"9040 Sunset Blvd, Los Angeles, CA 90069",
+  "total_experiences": 4,
+  "skill_coverage_target": "100%",
+  "skills_utilized": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "SQL",
+    "Shell Scripting",
+    "SpringBoot",
+    "SpringCloud",
+    "MyBatis",
+    "Django",
+    "Flask",
+    "SQLAlchemy",
+    "Celery",
+    "Pandas",
+    "PyTorch",
+    "Numpy",
+    "Scikit-learn",
+    "React.js",
+    "Redux",
+    "Node.js",
+    "MySQL",
+    "Redis",
+    "MongoDB",
+    "Elasticsearch",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Git",
+    "JUnit",
+    "Apache Kafka",
+    "Zookeeper"
+  ],
+  "experiences": [
+    {
+      "title": "E-commerce Inventory Management API",
+      "company": "CloudBridge Solutions",
+      "role": "Software Engineer Intern",
+      "location": "San Francisco, CA",
+      "duration": "05/2024 – 08/2024",
+      "bullets": [
+        "Implemented inventory tracking service using SpringBoot and MySQL, managing stock levels across 8 warehouse locations for 15K daily transactions.",
+        "Enhanced existing product search functionality by integrating Elasticsearch, improving query response time from 680ms to 420ms.",
+        "Developed RESTful API endpoints with MyBatis for database operations, supporting concurrent access from multiple frontend clients.",
+        "Optimized database queries by adding composite indexes after analyzing slow query logs, reducing peak load latency by approximately 38%.",
+        "Automated deployment pipeline with Jenkins and Docker, cutting release time from 14 minutes to 6 minutes.",
+        "Implemented unit tests using JUnit, increasing code coverage from 61% to 84% before merging to production."
+      ]
+    },
+    {
+      "title": "Real-time Customer Analytics Dashboard",
+      "company": "DataNova Labs",
+      "role": "Software Engineer Intern",
+      "location": "Austin, TX",
+      "duration": "01/2024 – 04/2024",
+      "bullets": [
+        "Developed analytics dashboard using React.js and Redux for state management, visualizing user behavior metrics for 12K daily active users.",
+        "Implemented backend data aggregation service with Node.js and MongoDB, processing clickstream events from web and mobile platforms.",
+        "Integrated Apache Kafka consumer to handle real-time event streaming, supporting approximately 500K events per day.",
+        "Optimized data pipeline by implementing Redis caching layer, reducing dashboard load time from 3.2s to 1.8s.",
+        "Deployed microservice on AWS EC2 with auto-scaling configuration, maintaining 99.7% uptime during trial period.",
+        "Collaborated with product team to refine data visualization requirements, iterating on chart designs based on user feedback."
+      ]
+    },
+    {
+      "title": "Machine Learning Model Deployment Platform",
+      "company": "QuantumOps AI",
+      "role": "Software Engineer Intern",
+      "location": "Seattle, WA",
+      "duration": "06/2023 – 09/2023",
+      "bullets": [
+        "Developed model serving API using Flask and SQLAlchemy, enabling data scientists to deploy PyTorch models without infrastructure knowledge.",
+        "Implemented asynchronous inference queue with Celery and Redis, processing batch predictions for approximately 8K requests daily.",
+        "Enhanced prediction accuracy monitoring by integrating Pandas and Numpy for statistical analysis, detecting model drift within 48-hour windows.",
+        "Optimized image preprocessing pipeline using Python and Scikit-learn, improving batch throughput from 120 to 185 images per minute.",
+        "Containerized ML workloads with Docker and deployed on GCP CloudRun, achieving cold start times under 4 seconds.",
+        "Developed automated testing suite to validate model outputs, catching regression issues before production deployment."
+      ]
+    },
+    {
+      "title": "Distributed Notification Service",
+      "company": "Zenbyte Systems",
+      "role": "Software Engineer Intern",
+      "location": "Boston, MA",
+      "duration": "01/2023 – 04/2023",
+      "bullets": [
+        "Implemented multi-channel notification system using Django and Celery, delivering email, SMS, and push notifications for 6K active users.",
+        "Designed message routing logic with Apache Kafka and Zookeeper, enabling reliable delivery across distributed worker nodes.",
+        "Enhanced existing template engine by integrating Java-based rendering service via gRPC, reducing template compilation time by 42%.",
+        "Developed monitoring dashboard to track delivery rates and failures, using SQL queries against MySQL database for historical analysis.",
+        "Deployed service on Kubernetes cluster with horizontal pod autoscaling, handling traffic spikes up to 3x baseline load.",
+        "Automated infrastructure provisioning using Shell scripts and Git-based configuration management, reducing setup time from 2 hours to 15 minutes."
+      ]
+    }
+  ]
+}
+
